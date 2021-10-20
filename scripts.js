@@ -57,10 +57,9 @@ function isGameOver()
 {
     for(let i=1; i<10; i++)
     {
-        if(document.getElementById("c"+i).firstChild.innerHTML == "[ ]" || document.getElementById("c" + i).innerHTML == "[]")
+        if(document.getElementById("c"+i).firstChild.innerHTML == "[ ]" || document.getElementById("c" + i).innerHTML == "[ ]")
         return false;
     }
     return true;
     // This function returns true if all the buttons are disabled and false otherwise 
-   
 }
